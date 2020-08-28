@@ -10,6 +10,8 @@ public class Ascension : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
+		PublicDefinitions.Add("WINDOWS_IGNORE_PACKING_MISMATCH");
+
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 		// Uncomment if you are using Slate UI

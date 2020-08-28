@@ -12,7 +12,7 @@
 	 @TextScale			 : Size of the text.
 	 @DisplayColor		 : Color of the text.
 */
-void QuickPrint(const FString& DebugMessage, float TimeToDisplay = 3.0f, const FVector2D& TextScale = FVector2D(1.0f,1.0f), FColor DisplayColor = FColor::White);
+//void QuickPrint(const FString& DebugMessage, float TimeToDisplay = 3.0f, const FVector2D& TextScale = FVector2D(1.0f,1.0f), FColor DisplayColor = FColor::White);
 
 /*
 	 Prints something to the screen
@@ -22,4 +22,4 @@ void QuickPrint(const FString& DebugMessage, float TimeToDisplay = 3.0f, const F
 	 @TextScale			 : Size of the text.
 	 @DisplayColor		 : Color of the text.
 */
-void QuickPrint(float DebugMessage, float TimeToDisplay = 2.0f, bool bNewerOnTop = true, FVector2D TextScale = FVector2D(3, 3), FColor DisplayColor = FColor::Blue);
+//void QuickPrint(float DebugMessage, float TimeToDisplay = 2.0f, bool bNewerOnTop = true, FVector2D TextScale = FVector2D(3, 3), FColor DisplayColor = FColor::Blue);
